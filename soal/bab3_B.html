@@ -111,16 +111,23 @@
                         <!-- membuat formulir pilihan ganda -->
                         <form class="form-group" name="submit-to-google-sheet" method="post">
                             
-                            <h6>Lengkapi data berikut terlebih dahulu sebelum mengerjakan soal !</h6>
-                            <div class="form-group">
-                                <label for="">Nama :</label> 
-                                <input type="text" name="nama" id="nama" class="form-control col-9" autocomplete="off" required>
-
-                                <label for="">No. Absen :</label>
-                                <input type="number" name="absen" id="absen" class="form-control col-9" autocomplete="off" required>
-
-                                <label for="">Kelas :</label>
-                                <input type="text" name="kelas" id="kelas" class="form-control col-9" autocomplete="off" required>
+                        <h6>Lengkapi data berikut terlebih dahulu sebelum mengerjakan soal !</h6>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="nama" placeholder="Nama" autocomplete="off" required>
+                                    </div>
+                                </div> <br>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="absen" placeholder="No Absen" autocomplete="off" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="kelas" placeholder="Kelas" autocomplete="off" required>
+                                    </div>
+                                </div>  
                             </div>
                                   <br>
                                   <br>

@@ -114,14 +114,28 @@
                             <!-- membuat formulir -->
                             <form class="form-group" name="submit-to-google-sheet" method="post">
                             <p> Carilah produk teknologi informasi yang telah terdaftar HAKI ! <br> <br>
-                                <label for="" class="col-lg-2"> Nama : </label>
-                                <input type="text" class="col-md-6" name="nama" placeholder="Nama" required autocomplete="off"> <br>
-                                <label for="" class="col-lg-2">No Absen :</label>
-                                <input type="number" class="col-md-6" name="absen" placeholder="No Absen" required autocomplete="off"> <br>
-                                <label for="" class="col-lg-2">Kelas :</label>
-                                <input type="text" class="col-md-6" name="kelas" placeholder="Kelas" required autocomplete="off"> <br>
-                                <label for="" class="col-lg-2">Jawaban :</label>
-                                <textarea name="jawaban" class="col-md-9" rows="10" placeholder="Tuliskan jawaban anda disini" autocomplete="off"></textarea>    
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="nama" placeholder="Nama" autocomplete="off" required>
+                                        </div>
+                                    </div> <br>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" name="absen" placeholder="No Absen" autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="kelas" placeholder="Kelas" autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="jawaban" class="col-md-12" rows="10" placeholder="Tuliskan jawaban anda disini" autocomplete="off"></textarea>
+                                        </div>
+                                    </div>    
+                                </div>    
                             </p>
                             <div class="form-group"> 
                                 <center>
